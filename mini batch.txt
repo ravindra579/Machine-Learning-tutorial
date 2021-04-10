@@ -1,0 +1,13 @@
+Say you have a batch of 5,000,000 data inputs. Now, this would alone make a vector of 5,000,000 sizes, and should you think of efficiency when performing any Mathematical operation on a vector this big. What we do here? Ever heard of the saying “Baby steps”, this is essentially that.
+Mini-Batch (Baby Batch): Suppose it’ll just have 1k data inputs in them. Now, 5,000,000 means that we’ll have 5000 mini-batches.
+
+
+The difference between the Mini batch Gradient Descent and normal Gradient Descent is that when we plot these two. We see that the graph for the normal Batch Gradient Descent is smooth and downwards, if not downwards then something is wrong. But on the other hand, we will observe a much noisier line in mini-batch Gradient Descent, the overall trend would be downwards but it’d be much noisier. That is because in every step taken in the Mini batch Gradient Descent, the model will be seeing new data and hence, its predictions will vary snd fluctuate a bit.
+
+if batch_size == m: #This is Basic Gradient Descent
+if batch_size == 1: #This is Stochastic Gradient Descent, meaning every training example is a mini batch
+
+Using Basic Gradient Descent: It takes too long to train.
+Using Stochastic Gradient Descent: It makes the model lose all the speed from vectorization.
+The best batch size is between 1 and m. The fastest will have the pro of Vectorization, faster training & will take steps without iterating on the entire data.
+

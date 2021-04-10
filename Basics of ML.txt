@@ -1,0 +1,55 @@
+Machine learning
+main focus of machine learning is to making decisions or predictions based on data.There are a number of other ﬁelds with signiﬁcant overlap in technique, but difference infocus: in economics and psychology, the goal is to discover underlying causal processes and in statistics it is to ﬁnd a model that ﬁts a data set well. In those ﬁelds, the end product is a model. In machine learning, we often ﬁt models, but as a means to the end of making good predictions or decisions.As machine-learning (ML) methods have improved in their capability and scope, ML has become the best way, measured in terms of speed, human engineering time, and ro-bustness, to make many applications. Great examples are face detection and speech recognition and many kinds of language-processing tasks. Almost any application that involvesunderstanding data or signals that come from the real world can be best addressed using machine learning.
+mainly classified into two types supervised and unsupervised learning 
+
+Supervised learning:
+input data will be given and told to which specific output should be associated with them this is mainly divided based on the data whether it is continous(regression) or it is taken from a small finite set(classification)
+
+Unsupervised learning:
+Unsupervised learning is a type of machine learning algorithm used to draw inferences from datasets
+consisting of input data without labeled responses.
+
+Classification
+In machine learning, classification is the problem of identifying to which of a set of categories a
+new observation belongs, on the basis of a training set of data containing observations (or instances)
+whose category membership is known.
+
+There are several machine learning algorithms for classification. The following are some of the
+well-known algorithms.
+a) Logistic regression
+b) Naive Bayes algorithm
+c) k-NN algorithm
+d) Decision tree algorithm
+e) Support vector machine algorithm
+f) Random forest algorithm
+
+• A classification problem requires that examples be classified into one of two or more classes.
+• A classification can have real-valued or discrete input variables.
+• A problem with two classes is often called a two-class or binary classification problem.
+• A problem with more than two classes is often called a multi-class classification problem.
+• A problem where an example is assigned multiple classes is called a multi-label classification
+problem.
+
+Regression
+In machine learning, a regression problem is the problem of predicting the value of a numeric variable based on observed values of the variable. The value of the output variable may be a number,
+such as an integer or a floating point value. These are often quantities, such as amounts and sizes.
+The input variables may be discrete or real-valued.
+
+There are various types of regression techniques available to make predictions. These techniques
+mostly differ in three aspects, namely, the number and type of independent variables, the type of
+dependent variables and the shape of regression line. Some of these are listed below.
+• Simple linear regression: There is only one continuous independent variable x and the assumed relation between the independent variable and the dependent variable y is
+y = a + bx.
+• Multivariate linear regression: There are more than one independent variable, say x1, . . . , xn,
+and the assumed relation between the independent variables and the dependent variable is
+y = a0 + a1x1 + ⋯ + anxn.
+• Polynomial regression: There is only one continuous independent variable x and the assumed
+model is
+y = a0 + a1x + ⋯ + anx
+• Logistic regression: The dependent variable is binary, that is, a variable which takes only the
+values 0 and 1. The assumed model involves certain probability distributions.
+
+other than supervised and unsupervised one more classification called reinforcement learning
+ Reinforcement learning
+Reinforcement learning is the problem of getting an agent to act in the world so as to maximize its
+rewards.

@@ -1,0 +1,43 @@
+In this we will look at some general terms which are most useful and frequently used in machine laerning
+ Noise
+Noise is any unwanted anomaly in the data 
+Noise may arise due to several factors some of them are :
+=>There may be imprecision in recording the input attributes, which may shift the data points in
+the input space.
+=>There may be errors in labeling the data points, which may relabel positive instances as negative and vice versa. This is sometimes called teacher noise.
+=>There may be additional attributes, which we have not taken into account, that affect the label
+of an instance. Such attributes may be hidden or latent in that they may be unobservable. The
+effect of these neglected attributes is thus modeled as a random component and is included in
+noise.
+When there is noise in the data the results which we obtained may not be accurate 
+
+ Generalisation
+generalization reffered to How well a model trained on the training set predicts the right output for new instances 
+Overfitting and underfitting are the two biggest causes for poor performance of machine learning algorithms
+
+Underfitting
+Underfitting is the production of a machine learning model that is not complex enough to
+accurately capture relationships between a dataset features and a target variable. ´
+
+Overfitting
+Overfitting is the production of an analysis which corresponds too closely or exactly to a
+particular set of data, and may therefore fail to fit additional data or predict future observations
+reliably
+
+Dimensional redution 
+In statistical and machine learning, dimensionality reduction or dimension reduction is the process of reducing the number of variables under consideration by obtaining a smaller set of principal
+variables.
+Dimensionality reduction may be implemented in two ways.
+• Feature selection
+In feature selection, we are interested in finding k of the total of n features that give us the most information and we discard the other (n−k) dimensions. We are going to discuss subset selection as a feature selection method.
+• Feature extraction
+In feature extraction, we are interested in finding a new set of k features that are the combination of the original n features. These methods may be supervised or unsupervised depending on whether or not they use the output information. The best known and most widely used feature extraction methods are Principal Components Analysis (PCA) and Linear Discriminant Analysis (LDA), which are both linear projection methods, unsupervised and supervised respectively.
+
+Principal component analysis
+Principal component analysis (PCA) is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly
+uncorrelated variables called principal components. The number of principal components is less
+than or equal to the smaller of the number of original variables or the number of observations. This
+transformation is defined in such a way that the first principal component has the largest possible
+variance (that is, accounts for as much of the variability in the data as possible), and each succeeding
+component in turn has the highest variance possible under the constraint that it is orthogonal to the
+preceding components.
